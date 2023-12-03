@@ -42,7 +42,7 @@ body {
 
 
   .container {
-    width: 90%;
+    width: 95%;
     margin: auto;
   }
   .div-btn {
@@ -52,8 +52,7 @@ body {
   }
   .div-btn .btn {
     background: linear-gradient(to left, #7f1316, #e41e26);
-
-    padding: 7px 55px;
+    padding: 8px 55px 5px;
     font-size: 35px;
     font-weight: 600;
     color: #fff;
@@ -74,22 +73,21 @@ body {
 
   .product-img {
     left: 4%;
-    width: 25vw;
     height: auto;
-    width: 35vw;
+    width: 32vw;
     position: absolute;
     top: 15px;
-    max-width: 27.5vw;
+    max-width: 26vw;
   }
   .bg-img {
     width: 100%;
   }
   .hero ul.btm-section {
-    margin-top: 50px;
+    margin-top: 20px;
   }
   .hero ul.btm-section li {
     display: flex;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
   }
   .hero ul.btm-section li span {
     background: #fff;
@@ -106,12 +104,12 @@ body {
     font-weight: bold;
   }
   .hero ul.btm-section li p {
-    background: linear-gradient(to left, #285f2d, #1a7b3d);
+    background: linear-gradient(to left,#17431c, #28592c, #1a7b3d);
     width: calc(100% - 80px);
     font-family: "Saudi-Arabia-XL";
     font-size: 3.6vw;
     color: #fff;
-    padding: 10px;
+    padding: 6px 10px;
     border-radius: 8px;
     box-shadow: 2px 5px 8px #00000071;
     position: relative;
@@ -125,9 +123,9 @@ body {
 
  
   .hero .container h1 {
-    font-size: 6.5vw;
+    font-size: 6.3vw;
     position: relative;
-    top: -15px;
+    top: -25px;
   }
 
   .results {
@@ -574,7 +572,7 @@ body {
 
   @media (max-width:390px){
     .div-btn .btn {
-        padding: 7px 45px;
+        padding: 8px 45px 5px;
         font-size: 28px;
     }
     .results .box.right-box .text {
@@ -606,7 +604,7 @@ body {
         font-size: 3.4vw;
     }
     .hero ul.btm-section{
-        margin-top: 40px;
+        margin-top: 20px;
     }
     .div-btn {
         text-align: center;
@@ -614,7 +612,8 @@ body {
         padding: 15px 0 20px;
       }
       .div-btn .btn {
-        padding: 7px 30px;
+        padding: 8px 30px 5px;
+        
         font-size: 24px;
       }
       .how-work img {
@@ -633,7 +632,7 @@ body {
         font-size: 3.2vw;
     }
     .hero ul.btm-section{
-        margin-top: 30px;
+        margin-top: 20px;
     }
     .how-work img {
         height: 320px;
