@@ -7,6 +7,14 @@
 }
 
 @font-face {
+    font-family: "GE_SS_Two_Bold";
+    src: local("GE_SS_Two_Bold"),
+      url("../fonts/GE_SS_Two_Bold.otf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+@font-face {
     font-family: "Swissra-Light";
     src: local("Swissra-Light"),
       url("../fonts/Swissra-Light.otf") format("truetype");
@@ -57,6 +65,8 @@ body {
     font-weight: 600;
     color: #fff;
     border-radius: 10px;
+    font-family: "GE_SS_Two_Bold";
+
   }
 
   /* start hero section */
@@ -113,6 +123,7 @@ body {
     border-radius: 8px;
     box-shadow: 2px 5px 8px #00000071;
     position: relative;
+    line-height: 1.7;
     right: -6px;
    
   }
@@ -135,9 +146,9 @@ body {
     padding-bottom: 1px;
   }
   .results .logo {
-    width: 100px;
+    width: 80px;
     position: relative;
-    bottom: -15px;
+    bottom: 2px;
   }
   .results .top-sec {
     text-align: center;
@@ -160,6 +171,10 @@ body {
 
   }
 
+  .results .mt10{
+    position: relative;
+    top: -16px;
+  }
   .results .box {
     background: #fff;
     width: 75%;
@@ -170,7 +185,7 @@ body {
     margin-bottom: 0px;
     gap: 20px;
     position: relative;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
   }
   .results .box img {
     width: 55px;
@@ -236,6 +251,7 @@ body {
     padding: 10px 5px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
+    margin-bottom: 0;
   }
   .results .box .weeks p {
     background: linear-gradient( 
