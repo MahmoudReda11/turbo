@@ -60,7 +60,7 @@ body {
   }
   .div-btn .btn {
     background: linear-gradient(to left, #7f1316, #e41e26);
-    padding: 16px 45px 12px;
+    padding: 15px 45px 11px;
     font-size: 35px;
     font-weight: 600;
     color: #fff;
@@ -93,11 +93,11 @@ body {
     width: 100%;
   }
   .hero ul.btm-section {
-    margin-top: 20px;
+    margin-top: 18px;
   }
   .hero ul.btm-section li {
     display: flex;
-    margin-bottom: 14px;
+    margin-bottom: 12px;
   }
   .hero ul.btm-section li span {
     background: #fff;
@@ -140,7 +140,7 @@ body {
   }
 
   .results {
-    background: url(../images/Layer\ 14.png);
+    background: linear-gradient(#0b532572,#0b532572),url(../images/Layer\ 14.png);
     background-size: cover;
     background-position: center;
     padding-bottom: 1px;
@@ -588,7 +588,7 @@ body {
 
   @media (max-width:390px){
     .div-btn .btn {
-        padding: 14px 35px 10px;
+        padding: 13px 35px 9px;
         font-size: 28px;
     }
     .results .box.right-box .text {
@@ -620,7 +620,7 @@ body {
         font-size: 3.4vw;
     }
     .hero ul.btm-section{
-        margin-top: 20px;
+        margin-top: 18px;
     }
     .div-btn {
         text-align: center;
@@ -628,7 +628,7 @@ body {
         padding: 15px 0 20px;
       }
       .div-btn .btn {
-        padding: 14px 27px 10px;
+        padding: 13px 27px 9px;
         
         font-size: 24px;
       }
@@ -648,7 +648,7 @@ body {
         font-size: 3.2vw;
     }
     .hero ul.btm-section{
-        margin-top: 20px;
+        margin-top: 18px;
     }
     .how-work img {
         height: 320px;
