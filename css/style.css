@@ -78,7 +78,7 @@ body {
     width: 100vw;
     background: url(../images/bgfSection.jpg);
     background-size: cover;
-    background-position: bottom;
+    background-position: left;
   }
   .hero .top-sec {
     position: relative;
