@@ -285,7 +285,8 @@ body {
   /* doctor section */
 
   .doctor {
-    background: linear-gradient(to right, #c7c6c6, #d5d5d5);
+    background: url(../images/silver.png);
+    background-size: cover;
   }
   .doctor .top-sec {
     text-align: center;
@@ -302,7 +303,7 @@ body {
     padding: 5px 45px;
     border-radius: 8px;
     margin: 10px 0;
-    background: linear-gradient(to right, #23a048, #215227);
+    background: linear-gradient(to left,#17431c, #28592c, #1a7b3d);
     box-shadow: 5px 5px 8px #00000040;
   }
   .doctor .content {
@@ -316,7 +317,7 @@ body {
     width: 54%;
   }
   .doctor .content ul li {
-    background: linear-gradient(to left, #285f2d, #1a7b3d);
+    background: linear-gradient(to left,#17431c, #28592c, #1a7b3d);
     margin-bottom: 20px;
     font-size: 4vw;
     color: #fff;
@@ -325,7 +326,8 @@ body {
     box-shadow: 2px 5px 8px #00000071;
   }
   .doctor p {
-    background: linear-gradient(to left, #285f2d, #1a7b3d);
+    background: linear-gradient(to left,#17431c, #2b6830, #1a7b3d);
+
     font-weight: bold;
     font-size: 3vw;
     padding: 5px 15px;
