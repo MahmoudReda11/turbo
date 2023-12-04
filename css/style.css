@@ -30,6 +30,9 @@
     font-style: normal;
   }
 
+  .numberFont{
+    font-family: "GE_SS_Two_Bold";
+  }
 * {
   padding: 0;
   margin: 0;
@@ -464,7 +467,7 @@ body {
     padding-right: 15px;
     color: #fff;
     position: relative;
-    font-size: 2.7vw;
+    font-size: 2.6vw;
     margin-left: 10px;
     box-shadow: 5px 5px 8px #00000043;
 
@@ -615,7 +618,7 @@ body {
         height: 395px;
       }
       .last-sec .price .text div h5{
-        font-size: 2.6vw;
+        font-size: 2.5vw;
       }
       
   }
@@ -642,7 +645,7 @@ body {
         height: 365px;
       }
       .last-sec .price .text div h5{
-        font-size: 2.5vw;
+        font-size: 2.4vw;
      
       }
       .last-sec .price .text div h5::after{
