@@ -396,7 +396,7 @@ body {
     text-align: center;
   }
   .last-sec .price img{
-    width: 33%;
+    width: 29%;
     position: relative;
     top: -25px;
     left: 15px;
@@ -452,7 +452,7 @@ body {
   .last-sec .price .text div{
     text-align: right;
     padding-right: 5%;
-    margin-top: 30px;
+    margin-top: 20px;
   }
 
   .last-sec .price .text div h5{
@@ -495,19 +495,19 @@ body {
   .last-sec .sm-p {
     font-size: 2.65vw;
     text-align: center;
-    padding: 10px 0;
+    padding: 5px 0;
   }
 
   .last-sec .div-form {
     width: 95%;
     margin: auto;
     position: relative;
-    top: -20px;
+    top: -25px;
   }
   .last-sec .div-form .content {
     text-align: center;
     background: #fff;
-    padding: 10px;
+    padding: 5px 10px;
     box-shadow: 5px 5px 8px #00000047;
     border-radius: 5px;
     border-bottom-left-radius: 0;
@@ -518,7 +518,7 @@ body {
   }
   .last-sec .div-form form {
     background: linear-gradient(to left, #0d3b0f, #1a7b3d);
-    padding: 30px;
+    padding: 20px;
     border-radius: 5px;
     box-shadow: 5px 5px 8px #00000047;
     border-top-left-radius: 0;
@@ -556,7 +556,8 @@ body {
     justify-content: space-between;
     width: 95%;
     margin: auto;
-    padding-bottom: 5px;
+    position: relative;
+    top: -15px;
   }
   .last-sec .footer .boxs .box {
     display: flex;
@@ -566,23 +567,23 @@ body {
     width: 30%;
   }
   .last-sec .footer .boxs .box img {
-    width: 40px;
+    width: 30px;
     margin-bottom: 5px;
-    height: 40px;
+    height: 30px;
   }
 
   .last-sec .footer .boxs .box div {
-    padding: 5px 0px;
+    padding: 2px 0px;
     background: linear-gradient(to right, #23a048, #215227);
     width: 100%;
-    font-size: 3.2vw;
+    font-size: 3.1vw;
     color: #fff;
     box-shadow: 5px 5px 8px #00000031;
     border-radius: 10px;
   }
 
   .last-sec .footer .boxs .box .img1 {
-    width: 55px;
+    width: 45px;
   }
 
 
