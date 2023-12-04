@@ -502,7 +502,7 @@ body {
     width: 95%;
     margin: auto;
     position: relative;
-    top: -25px;
+    top: -20px;
   }
   .last-sec .div-form .content {
     text-align: center;
@@ -617,6 +617,7 @@ body {
       .last-sec .price .text div h5{
         font-size: 2.5vw;
       }
+      
   }
 
 
