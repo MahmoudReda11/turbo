@@ -194,20 +194,20 @@ body {
     width: 50px;
   }
   .results .box.right-box .text {
-    left: -40px;
+    left: -50px;
     background: linear-gradient(to left, #23a048, #215227);
     
   
   }
   .results .box.left-box .text {
-    right: -40px;
+    right: -45px;
     background: linear-gradient(to right, #23a048, #215227);
   }
   .results .box .text {
     position: absolute;
     color: #fff;
     text-align: right;
-    padding: 2px 42px;
+    padding: 2px 35px;
     border-radius: 5px;
    
   }
@@ -236,10 +236,10 @@ body {
     padding-top: 8px;
   }
   .results .box.right-box .weeks {
-    padding-right: 20px;
+    padding-right: 15px;
   }
   .results .box.left-box .weeks {
-    padding-left: 12px;
+    padding-left: 16px;
   }
   .results .box .weeks {
     display: flex;
@@ -275,7 +275,7 @@ body {
   }
   .results .box.right-box img {
     position: relative;
-    right: 10px;
+    right: 5px;
   }
   .results .box.left-box img {
     position: relative;
@@ -600,10 +600,10 @@ body {
         font-size: 28px;
     }
     .results .box.right-box .text {
-        left: -50px;
+        left: -55px;
       }
       .results .box.left-box .text {
-        right: -50px;
+        right: -55px;
       }
       .results .box.right-box img {
         right: 0px;
@@ -612,7 +612,7 @@ body {
         left: 20px;
       }
       .results .box .text{
-        padding: 3px 35px;
+        padding: 3px 30px;
       }
       .how-work img {
         height: 395px;
