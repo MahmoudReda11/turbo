@@ -517,7 +517,7 @@ body {
     font-size: 4.6vw;
   }
   .last-sec .div-form form {
-    background: linear-gradient(to left, #235125, #1a7b3d);
+    background: linear-gradient(to left, #134115, #1a7b3d);
     padding: 20px;
     border-radius: 5px;
     box-shadow: 5px 5px 8px #00000047;
@@ -547,6 +547,7 @@ body {
     outline: none;
     border: none;
     cursor: pointer;
+    font-size: 30px;
   }
 
   .last-sec .footer .boxs {
