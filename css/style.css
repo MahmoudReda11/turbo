@@ -407,7 +407,7 @@ body {
     font-size: 7.5vw;
   }
   .last-sec .price .text h6{
-    font-size: 26vw;
+    font-size: 29vw;
     line-height: 0.9;
     background: linear-gradient( 
             to left, #235125, #1a7b3d); 
@@ -464,7 +464,7 @@ body {
     padding-right: 15px;
     color: #fff;
     position: relative;
-    font-size: 2.6vw;
+    font-size: 2.7vw;
     margin-left: 10px;
     box-shadow: 5px 5px 8px #00000043;
 
@@ -475,8 +475,8 @@ body {
     top: 40%;
     transform: translateY(-50%);
     right: -20px;
-    width: 7vw;
-    height: 7vw;
+    width: 6.8vw;
+    height: 6.8vw;
     background-color: #fff;
     border-radius: 50%;
     box-shadow: 5px 5px 3px #00000052;
@@ -527,7 +527,7 @@ body {
   }
   .last-sec .div-form form input {
     width: 100%;
-    padding: 15px 10px;
+    padding: 12px 10px;
     font-size: 18px;
     border-radius: 5px;
     box-shadow: 5px 5px 8px #00000031;
@@ -615,7 +615,7 @@ body {
         height: 395px;
       }
       .last-sec .price .text div h5{
-        font-size: 2.5vw;
+        font-size: 2.6vw;
       }
       
   }
@@ -642,7 +642,7 @@ body {
         height: 365px;
       }
       .last-sec .price .text div h5{
-        font-size: 2.4vw;
+        font-size: 2.5vw;
      
       }
       .last-sec .price .text div h5::after{
