@@ -409,9 +409,12 @@ body {
   .last-sec .price .text p{
     font-size: 7.5vw;
   }
+  .last-sec .price .text p.smsize{
+    font-size: 6vw;
+  }
   .last-sec .price .text h6{
     font-size: 29vw;
-    line-height: 0.9;
+    line-height: 0.8;
     background: linear-gradient( 
             to left, #235125, #1a7b3d); 
         -webkit-text-fill-color: transparent; 
@@ -462,7 +465,7 @@ body {
     padding: 3px 10px;
     background: linear-gradient(to left, #235125, #1a7b3d);
     border-radius: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
     margin-right: 10px;
     padding-right: 15px;
     color: #fff;
