@@ -60,7 +60,7 @@ body {
   }
   .div-btn .btn {
     background: linear-gradient(to left, #7f1316, #e41e26);
-    padding: 12px 45px 12px;
+    padding: 16px 45px 12px;
     font-size: 35px;
     font-weight: 600;
     color: #fff;
@@ -588,7 +588,7 @@ body {
 
   @media (max-width:390px){
     .div-btn .btn {
-        padding: 10px 35px 10px;
+        padding: 14px 35px 10px;
         font-size: 28px;
     }
     .results .box.right-box .text {
@@ -628,7 +628,7 @@ body {
         padding: 15px 0 20px;
       }
       .div-btn .btn {
-        padding: 10px 27px 10px;
+        padding: 14px 27px 10px;
         
         font-size: 24px;
       }
