@@ -464,7 +464,7 @@ body {
     padding-right: 15px;
     color: #fff;
     position: relative;
-    font-size: 2.8vw;
+    font-size: 2.6vw;
     margin-left: 10px;
     box-shadow: 5px 5px 8px #00000043;
 
@@ -517,8 +517,8 @@ body {
     font-size: 4.6vw;
   }
   .last-sec .div-form form {
-    background: linear-gradient(to left, #134115, #1a7b3d);
-    padding: 20px;
+    background: linear-gradient(to left, #0d3b0f, #1a7b3d);
+    padding: 30px;
     border-radius: 5px;
     box-shadow: 5px 5px 8px #00000047;
     border-top-left-radius: 0;
@@ -532,7 +532,7 @@ body {
     border-radius: 5px;
     box-shadow: 5px 5px 8px #00000031;
     outline: none;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     text-align: right;
     font-family: sans-serif;
     border: 1px solid transparent;
@@ -614,7 +614,7 @@ body {
         height: 395px;
       }
       .last-sec .price .text div h5{
-        font-size: 2.6vw;
+        font-size: 2.5vw;
       }
   }
 
@@ -640,7 +640,7 @@ body {
         height: 365px;
       }
       .last-sec .price .text div h5{
-        font-size: 2.5vw;
+        font-size: 2.4vw;
      
       }
       .last-sec .price .text div h5::after{
@@ -668,3 +668,76 @@ body {
         height: 305px;
       }
   }
+
+  @media (min-width:550px){
+    .product-img {
+      left: 10%;
+      max-width: 150px;
+    }
+    .bg-img {
+      height: 50vh;
+    }
+    .hero ul.btm-section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 90%;
+      margin: auto;
+    }
+    .hero ul.btm-section li {
+      margin-bottom: 30px;
+      width: 50%;
+    }
+    .hero ul.btm-section li p{
+      font-size: 22px;
+      line-height: normal;
+      max-width: max-content;
+    }
+    .hero ul.btm-section li span{
+      font-size: 40px;
+    }
+     
+  .hero .container h1 {
+    font-size: 60px;
+    position: relative;
+    top: -50px;
+
+  }
+  .results .top-sec h1{
+    font-size: 60px;
+  }
+  .results .top-sec h4{
+    font-size: 35px;
+  }
+  .results .box .text p{
+    font-size: 30px;
+  }
+  .results .box {
+    width: 40%;
+    margin-bottom: 40px;
+  }
+  .results .box .weeks p{
+    font-size: 40px;
+    padding: 15px 0;
+  }
+  .results .box .weeks span{
+    font-size: 30px;
+  }
+  .results .box .weeks  img{
+    width: 80px;
+  }
+  .results .box.right-box img {
+    position: relative;
+    right: 40px;
+  }
+  .results .box.left-box img {
+    position: relative;
+    left: 55px;
+  }
+
+
+
+
+  }
+
+
