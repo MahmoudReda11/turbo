@@ -187,13 +187,14 @@
             <img src="images/product.png" alt="">
         </div>
         
-        <div class="div-form" id="form">
+        <div class="flexonpc">
+            <div class="div-form">
                 <p class="sm-p">سياسـه الاسـترجاع في حاله عدم رضائك عن النتائج ضمان اسـترجاع خلال 14 يوم</p>
             <div class="content">
                 <p>سجـل بياناتك الآن وسـوف نقوم بالتواصل</p>
                 <p>معكـم بكـل التفـاصيـل قبـل شحـن المنتـج</p>
             </div>
-            <form class="contactUs container-fluid text-center" method="POST"
+            <form id="form" class="contactUs container-fluid text-center" method="POST"
         action="https://api.sheetmonkey.io/form/sixZHuUJurrBvA9YrfigY1">
 
         <div class="container" id="block4">
@@ -204,10 +205,12 @@
                             </div>
                             
                             <div class="f-element">
-                                <input class="form-control custom-field" name="Number" type="tel"
-                                    maxlength="11" minlength="11" data-label="Phone"
+                                <input class="form-control custom-field" name="Number" id="password" type="tel"
+                                    maxlength="11" data-label="Phone"
                                     placeholder="رقم الهاتف" required>
                             </div>
+
+                            <div id="error"></div>
                  
 
                 <input id="redDir" type="hidden" name="x-sheetmonkey-redirect" value="./thanks.html"/>
@@ -255,9 +258,34 @@
             </div>
         </div>
     </div>
+        </div>
     </section>
 
 
+
+    <script>
+        const name = document.getElementById('text')
+const password = document.getElementById('password')
+const form = document.getElementById('form')
+const errorElement = document.getElementById('error')
+
+form.addEventListener('submit', (e) => {
+  let messages = []
+
+  if (password.value.length < 11) {
+    messages.push('رقم الهاتف غير صحيح !')
+  }
+
+  if (password.value.length > 11) {
+    messages.push('رقم الهاتف غير صحيح !')
+  }
+
+  if (messages.length > 0) {
+    e.preventDefault()
+    errorElement.innerText = messages.join(', ')
+  }
+})
+    </script>
     <!-- js -->
 
     <script src="js/script.js"></script>

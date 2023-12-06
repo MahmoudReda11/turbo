@@ -51,6 +51,13 @@ body {
   direction: rtl;
 }
 
+#error{
+  position: relative;
+  top: -14px;
+  color: red;
+  font-size: 14px;
+}
+
 
   .container {
     width: 95%;
@@ -78,7 +85,7 @@ body {
     width: 100vw;
     background: url(../images/bgfSection.jpg);
     background-size: cover;
-    background-position: left;
+    background-position: bottom;
   }
   .hero .top-sec {
     position: relative;
@@ -593,9 +600,6 @@ body {
   }
 
 
-  @media (max-width:400px){
-   
-  }
 
   @media (max-width:390px){
     .div-btn .btn {
@@ -677,7 +681,129 @@ body {
       }
   }
 
-  @media (min-width:550px){
+
+  @media (min-width:500px){
+    .product-img{
+      width: 24vw;
+    }
+    .hero ul.btm-section{
+      width: max-content;
+      margin: auto;
+      margin-top: 40px;
+    }
+    .hero ul.btm-section li{
+      width: max-content;
+    }
+    .hero ul.btm-section li p{
+      font-size: 2.5vw;
+      width: max-content;
+    }
+    .hero .container h1{
+      font-size: 5.4vw;
+    }
+
+    .results .top-sec h1{
+      font-size: 50px;
+    }
+    .results .top-sec h4{
+      font-size: 30px;
+    }
+    .results .box .text p{
+      font-size: 25px;
+    }
+    .results .box {
+      width: 60%;
+      margin-bottom: 40px;
+    }
+    .results .box .weeks p{
+      font-size: 35px;
+      padding: 15px 0;
+    }
+    .results .box .weeks span{
+      font-size: 28px;
+    }
+    .results .box .weeks  img{
+      width: 80px;
+    }
+    .results .box.right-box img {
+      position: relative;
+      right: 40px;
+    }
+    .results .box.left-box img {
+      position: relative;
+      left: 55px;
+    }
+    .results .box.right-box .text{
+        left: auto;
+        right: 220px;
+        width: max-content;
+        padding: 10px 50px 14px;
+    }
+    .results .box.left-box .text{
+      right: auto;
+      left: 220px;
+      width: max-content;
+      padding: 10px 50px 14px;
+    }
+    .doctor .content ul li{
+      font-size: 3.5vw;
+    }
+    .doctor .content img{
+      width: 40%;
+    }
+    .doctor .top-sec h4{
+      font-size: 4vw;
+    }
+    .doctor .top-sec h1{
+      font-size: 5vw;
+    }
+    .doctor p{
+      font-size: 2.6vw;
+    }
+    .div-btn{
+      padding: 30px 0;
+    }
+    .how-work .top-sec h1{
+      font-size: 4.5vw;
+      padding-top: 10px;
+    }
+    .how-work img{
+      height: auto;
+      width: 450px;
+      margin: auto;
+      
+    }
+    .how-work .content {
+      text-align: center;
+    }
+    .how-work .content .text{
+      right: auto;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .how-work .content .text p{
+      font-size: 25px;
+      top: 10px;
+      line-height: 1.8;
+    }
+    .how-work .content .text{
+      width: 440px;
+    }
+    .last-sec .price .text div h5{
+      margin-bottom: 40px;
+      font-size: 22px;
+    }
+    .last-sec .price .text div h5::after{
+      width: 40px;
+      height: 40px;
+      right: -30px;
+    }
+  }
+
+  @media (min-width:900px){
+    .hero {
+      width: 100%;
+    }
     .product-img {
       left: 10%;
       max-width: 150px;
@@ -697,7 +823,7 @@ body {
       width: 50%;
     }
     .hero ul.btm-section li p{
-      font-size: 22px;
+      font-size: 15px;
       line-height: normal;
       max-width: max-content;
     }
@@ -743,9 +869,190 @@ body {
     left: 55px;
   }
 
+  }
 
 
+
+
+  @media (min-width:1000px){
+    .product-img {
+      left: 50px;
+      width: 150px;
+      max-width: 150px;
+      top: 40px;
+    }
+    .bg-img {
+      height: 300px;
+    }
+    .hero ul.btm-section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      width: 90%;
+      margin: auto;
+    }
+    .hero ul.btm-section li {
+      margin-bottom: 30px;
+      width: 50%;
+    }
+    .hero ul.btm-section li p{
+      font-size: 18px;
+      line-height: normal;
+      max-width: max-content;
+    }
+    .hero ul.btm-section li span{
+      font-size: 40px;
+    }
+     
+  .hero .container h1 {
+    font-size: 50px;
+    position: relative;
+    top: -50px;
+    margin-right: 2.5%;
 
   }
+  .results .top-sec h1{
+    font-size: 60px;
+  }
+  .results .top-sec h4{
+    font-size: 35px;
+  }
+  .results .box .text p{
+    font-size: 30px;
+  }
+  .results .box {
+    width: 40%;
+    margin-bottom: 40px;
+  }
+  .results .box .weeks p{
+    font-size: 40px;
+    padding: 15px 0;
+  }
+  .results .box .weeks span{
+    font-size: 30px;
+  }
+  .results .box .weeks  img{
+    width: 80px;
+  }
+  .results .box.right-box img {
+    position: relative;
+    right: 40px;
+  }
+  .results .box.left-box img {
+    position: relative;
+    left: 55px;
+  }
+  .results .box.right-box .text{
+      left: auto;
+      right: 220px;
+      width: max-content;
+      padding: 10px 50px 14px;
+  }
+  .results .box.left-box .text{
+    right: auto;
+    left: 220px;
+    width: max-content;
+    padding: 10px 50px 14px;
+  }
+  .doctor .top-sec h4 {
+    font-size: 45px;
+  }
+  .doctor .top-sec h1{
+    font-size: 60px;
+  }
+  .doctor .content ul li{
+    font-size: 30px;
+    padding: 10px 80px;
+    margin-bottom: 30px;
+  }
+  .doctor .content img {
+    width: 350px;
+  }
+  .doctor .content ul {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    margin-right: 100px;
+  }
+  .doctor p {
+    font-size: 26px;
+  }
+  .how-work .top-sec h1{
+    font-size: 50px;
+  }
+  .how-work img{
+    height: auto;
+    width: 450px;
+    margin: auto;
+    
+  }
+  .how-work .content {
+    text-align: center;
+  }
+  .how-work .content .text{
+    right: auto;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .how-work .content .text p{
+    font-size: 26px;
+    top: 10px;
+  }
+
+  .last-sec{
+    display: flex;
+  }
+  .last-sec .price{
+    width: 50%;
+    align-items: center;
+  }
+
+  .last-sec .flexonpc{
+    width: 50%;
+  }
+  .last-sec .price img{
+    width: 180px;
+    height: auto;
+  }
+  .last-sec .price .text p{
+    font-size: 40px;
+  }
+  .last-sec .price .text h6{
+    font-size: 140px;
+    line-height: 1.3;
+  }
+  .last-sec .price .text p.smsize{
+    font-size: 30px;
+  }
+  .last-sec .price .text div h5 {
+    font-size: 14px;
+  }
+  .last-sec .price .text div h5::after{
+    top: 45%;
+    right: -25px;
+    width: 35px;
+    height: 35px;
+  }
+  .last-sec .sm-p {
+    font-size: 13px;
+  }
+  .last-sec .div-form{
+    top: 0;
+  }
+  .last-sec .div-form .content p{
+    font-size: 22px;
+  }
+  .last-sec .footer .boxs .box div{
+    font-size: 15px;
+  }
+  .last-sec .footer .boxs{
+    top: 10px;
+  }
+  .last-sec .price .text div{
+    overflow: hidden;
+  }
+
+  }
+
 
 
