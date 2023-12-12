@@ -13,6 +13,21 @@
     font-weight: normal;
     font-style: normal;
   }
+  @font-face {
+    font-family: 'GE SS Two Medium';
+    src: local('GE SS Two Medium'), url('../fonts/GE_SS_Two_Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Al-Hurra-Txtreg-Bold';
+    src: local('Al-Hurra-Txtreg-Bold'), url('../fonts/Al-Hurra-Txtreg-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
   
 @font-face {
     font-family: "Swissra-Light";
@@ -83,9 +98,9 @@ body {
 
   .hero {
     width: 100vw;
-    background: url(../images/bgfSection.jpg);
+    background: url(../images/10.jpg);
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
   }
   .hero .top-sec {
     position: relative;
@@ -144,9 +159,30 @@ body {
 
  
   .hero .container h1 {
-    font-size: 6.3vw;
+    font-size: 6.4vw;
     position: relative;
     top: -20px;
+    color: #ed3737;
+    font-family: 'GE SS Two Medium';
+    line-height: 1.6;
+    position: relative;
+  }
+  .hero .container h1 .arrow{
+    width: 60px;
+    position: relative;
+    top: 5px;
+  }
+
+  .hero .container h1::after{
+    content: '';
+    position: absolute;
+    bottom: -14px;
+    right: 0;
+    width: 66%;
+    height: 4px;
+    background: #000;
+    border-radius: 30%;
+
   }
 
   .results {
